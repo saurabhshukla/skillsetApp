@@ -1,0 +1,59 @@
+<div style="width:50%; margin:auto">
+	<div class="user-info form-horizontal">
+		<div class="form-group">
+			<label class="col-md-3">Name: </label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" value='{{userName}}' readonly="readonly"/>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-3">Id: </label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" value='{{userId}}' readonly="readonly"/>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-3">Designation: </label>
+			<div class="col-md-9">
+				<input type="text" class="form-control" value='{{Designation}}' readonly="readonly"/>
+			</div>
+		</div>
+	</div>
+
+	<div class="user-skills form-horizontal">
+		<span>User Skills</span>
+		{{#each skills}}
+		<div class="form-group">
+			<div class="row">
+				<label class="col-md-3">Skill Name: </label>
+				<div class="col-md-9">
+					<input type="text" class="form-control" value='{{skillTitle}}' readonly="readonly"/>
+				</div>
+			</div>
+
+			<div class="row">
+				<label class="col-md-3">Last Used: </label>
+				<div class="col-md-9">
+					<input type="text" class="form-control" value='{{lastUsed}}' readonly="readonly"/>
+				</div>
+			</div>
+
+			<div class="row">
+				<label class="col-md-3">First Used: </label>
+				<div class="col-md-9">
+					<input type="text" class="form-control" value='{{firstUsed}}' readonly="readonly"/>
+				</div>
+			</div>
+
+			<div class="row">
+				<label class="col-md-3">Expertise Level: </label>
+				<div class="col-md-9">
+					<input type="text" class="form-control" value='{{expertiseLevel}}' readonly="readonly"/>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</div>

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0; 
+  background: #FAFAFA;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 8%;
+  width: 100%;
+  text-align: center; }
+  footer span {
+    color: grey; }
+
+header {
+  height: 8%;
+  width: 100%;
+  text-align: center; }
+  header button {
+    box-shadow: 4px 4px 4px #888888; }
+
+.carousel {
+  box-shadow: 6px 6px 6px #888888;
+  margin: 0 auto;
+  text-align: center;
+  width: 65%;
+  height: 550px;
+  transition-property: width;
+  transition-duration: 2s;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 2s;
+  -moz-transition-property: width;
+  -moz-transition-duration: 2s; }
+  .carousel div {
+    height: 100%; }
+  .carousel .item {
+    background: gainsboro; }
+    .carousel .item input {
+      border: 0px none;
+      background: transparent;
+      font-family: Garamond, serif;
+      line-height: 1em;
+      color: #f5f2f5;
+      font-weight: bold;
+      font-size: 50px;
+      text-shadow: 0px 0px 0 #dddadd, 1px 1px 0 #cecbce, 2px 2px 0 #c0bdc0, 3px 3px 0 #b1aeb1, 4px 4px 0 #a3a0a3, 5px 5px 0 #949194, 6px 6px 0 #868386, 7px 7px 6px rgba(0, 0, 0, 0.6), 7px 7px 1px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      position: relative;
+      top: 30%;
+      margin: 0 auto; }
+
+.img-responsive.nagarro-logo {
+  max-width: 170px;
+  width: 30%;
+  display: inline;
+}
+.page-header {
+  border: none;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}

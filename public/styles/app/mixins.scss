@@ -1,0 +1,16 @@
+@mixin artified-text($size) {
+    font-family: Garamond, serif;
+    line-height: 1em;
+    color: #f5f2f5;
+    font-weight:bold;
+    font-size: 50px;
+    text-shadow:0px 0px 0 rgb(221,218,221),1px 1px 0 rgb(206,203,206),2px 2px 0 rgb(192,189,192),3px 3px 0 rgb(177,174,177),4px 4px 0 rgb(163,160,163),5px 5px 0 rgb(148,145,148), 6px 6px 0 rgb(134,131,134),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+@mixin shadowed($dimension) {
+    box-shadow: $dimension $dimension $dimension #888888;
+}
+
+@mixin centered() {
+    margin: 0 auto;
+}

@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 16px/1.5 "Open Sans", helvetica, sans-serif;
+  text-align: center;
+}
+
+#polymer {
+  background-image: url("/images/polymer.svg");
+  background-size: 100%;
+  display: block;
+  margin: 20% auto 0;
+  height: 143px;
+  overflow: hidden;
+  text-indent: -999px;
+  width: 208px;
+}
+
+
+body {
+  font-family: sans-serif;
+}
+core-header-panel {
+  background: white;
+}
+core-toolbar {
+  background-color: #03A9F4;
+}
+#navheader {
+  background-color: #56BA89;
+}
+paper-tabs {
+  background-color: #03A9F4;
+}
+
+/* drawer is always visible on a wide screen
+   so menu button isn't required */
+core-drawer-panel:not([narrow]) #navicon {
+  display: none;
+}
+
+
+#tabs {
+  width: 100%;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+paper-dropdown::shadow #ripple,
+paper-dropdown::shadow #background {
+    background-color: green;
+}
